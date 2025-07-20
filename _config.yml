@@ -23,9 +23,9 @@ repository               : "OliviaBrtl/OliviaBrtl.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  name             : "Olivia Bertelli"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : "Development economist working on gender issues, conflict, agriculture, measurement and much more!"
   location         : "France"
   employer         : "University Paris-Dauphine, PSL"
   uri              : # URL
@@ -223,7 +223,7 @@ collections:
     output: true
     permalink: /:collection/:path/
   portfolio:
-    output: true
+    output: false
     permalink: /:collection/:path/
   talks:
     output: true

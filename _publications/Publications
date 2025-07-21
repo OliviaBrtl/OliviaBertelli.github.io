@@ -1,0 +1,135 @@
+@article{RED2024,
+    author = {Bertelli, Olivia and Calvo, Thomas and Coulibaly, Massa and Coulibaly, Moussa and Lavallée, Emmanuelle and Mercier, Marion and Mesplé-Somps, Sandrine and Traoré, Ousmane Z},
+    title = "{Men's justification of intimate partner violence: results from an experimental survey in Mali}",
+    journal = {Revue d’économie du développement},
+    volume = {32},
+    number ={3},
+    pages = {25-32},
+    year = {2024},
+    DOI = {https://doi.org/EDD.383-384.0025},
+}
+
+@article{ERAE2024,
+    author = {Bertelli, Olivia and Fall, Fatou},
+    title = "{Reaching out to socially distant trainees: experimental evidence from variations on the standard farmer trainer system}",
+    journal = {European Review of Agricultural Economics},
+    volume = {51},
+    number = {2},
+    pages = {533-588},
+    year = {2024},
+    DOI = {10.1093/erae/jbae006},
+    url = {https://doi.org/10.1093/erae/jbae006},
+}
+@article{GA2023,
+  title={Collecting data on sensitive experiences and attitudes: a Malian case study},
+  author={Bertelli, Olivia and Calvo, Thomas and Coulibaly, Massa and Coulibaly, Moussa and Lavallée, Emmanuelle and Mercier, Marion and Mesplé-Somps, Sandrine and Traoré, Ousmane Z},
+  journal={Global Africa},
+  volume={4},
+  pages={157--174},
+  year={2023},
+  DOI = {10.57832/nqe5-ya47},
+url = {https://www.globalafricasciences.org/issue-04/art-04-08-en},
+}
+
+
+@article{RED2022,
+  title={Expériences et opinions liées à l’insécurité: une analyse des biais déclaratifs au Mali},
+  author={Bertelli, Olivia and Calvo, Thomas and Lavallée, Emmanuelle and Mercier, Marion and Mesplé-Somps, Sandrine},
+  journal={Revue d’économie du développement},
+  volume={31},
+  number={2},
+  pages={169--175},
+  year={2022},
+  publisher={Cairn/Softwin},
+url = {https://www.cairn.info/revue-d-economie-du-developpement-2022-2-page-169.htm},
+DOI = {https://doi.org/10.3917/edd.362.0169},
+}
+
+
+
+
+@article{JAE2019,
+    author = {Bertelli, Olivia},
+    title = "{Food Security Measures in Sub-Saharan Africa. A Validation of the LSMS-ISA Scale}",
+    journal = {Journal of African Economies},
+    volume = {29},
+    number = {1},
+    pages = {90-120},
+    year = {2019},
+    abstract = "{Despite the international community’s emphasis on the need to achieve food security, there is still much debate surrounding its measurement, due mainly to its multidimensional aspects. This paper investigates the capacity of a new type of measure, food security scales, to capture dimensions of food security that other measures, such as food expenditures, caloric availability and food diversity, may miss. Drawing on nationally representative household panel data from Malawi, Nigeria and Tanzania, I find that the scale is a useful complementary measure to standard measures. Cross-section and panel analysis shows that the scale provides further insights into food vulnerability and coping strategies characteristic of food insecurity, dimensions not captured by the standard measures.}",
+    issn = {0963-8024},
+    DOI = {10.1093/jae/ejz011},
+    url = {https://doi.org/10.1093/jae/ejz011},
+}
+
+
+
+@article{bertelli2020measurement,
+  title={Measurement and observation of gender-based violence and conflict-related violence in developing countries},
+  author={Bertelli, Olivia and Calvo, Thomas and Lavallée, Emmanuelle and Mesplé-Somps, Sandrine and Mercier, Marion},
+  journal={Dialogue},
+  number={57},
+  pages={1--7},
+  year={2020},
+url = {https://hal.science/hal-03105596/document},
+}
+
+@techreport{LabYemen,
+    author = {Bertelli, Olivia and Kurdi, Sikandra},
+    title = "{Inter-group cooperation and conflict. Experimental evidence from Yemen.}",
+    institution = {\textit{Revise \& Resubmit at Oxford Bulletin of Economics and Statistics}},
+    year ={2025}
+}
+
+@techreport{IFPRI2019,
+    author = {Bertelli, Olivia and Kurdi, Sikandra and Al-Maweri, M. and Al Bass, T.},
+    title = {Impacts on trust and social capital of a youth employment program in Yemen: Evaluation of the rural and urban advocates working for development intervention for the Social Fund for Development},
+    institution = {Intl. Food Policy Res Inst, Vol. 24},
+    volume = {24},
+    year = {2019},
+doi = {https://doi.org/10.2499/p15738coll2.133476},
+}
+@techreport{YemenWD24,
+    author = {Bertelli, Olivia and Kurdi, Sikandra},
+    title = {Effects on pro-social attitudes of a youth employment program in Yemen},
+    institution = {\textit{Forthcoming at World Development}},
+    year = {2025},
+}
+@article{bertelli2023measuring,
+  title={Measuring insecurity-related experiences and preferences in a fragile state: a list experiment in Mali},
+  author={Bertelli, Olivia and Calvo, Thomas and Lavallée, Emmanuelle and Mercier, Marion and Mesplé-Somps, Sandrine},
+  year={2025},
+  journal={\textit{Conditionally accepted at World Development}},
+}
+@article{bertelli2025one,
+  title={What one thinks, what one says and what one does: male justifications and practices of gender-based violence in Mali},
+  author={Bertelli, Olivia and Calvo, Thomas and Lavall{\'e}e, Emmanuelle and Mercier, Marion and Mespl{\'e}-Somps, Sandrine},
+  journal={Journal of Development Economics},
+  pages={103479},
+  year={2025},
+  publisher={Elsevier},
+DOI={https://doi.org/10.1016/j.jdeveco.2025.103479}
+}
+
+
+% @techreport{bertelli2019investing,
+%  title={Investing in Agriculture when it is Worth it: Evidence from Rural Uganda},
+  author={Bertelli, Olivia},
+  year={2019},
+  institution={UMR DIAL Working Paper series 2019-05},
+url = {https://hal.science/hal-02446820},
+}
+
+@techreport{Foodsecure2014,
+    author = {Bertelli, Olivia and Macours, Karen},
+    title = {Food security and agriculture in developing countries: measurement and hypotheses for impact evaluations},
+    institution = {FOODSECURE Working Paper n.21},
+    year = {2014},
+}
+
+%@techreport{PSE2016,
+%    author = {Bertelli, Olivia},
+    title = {The more the merrier? Adjusting fertility to weather shocks.},
+    institution = {PSE working paper n.2015-38},
+    year = {2016},
+}

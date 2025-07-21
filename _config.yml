@@ -22,7 +22,7 @@ repository               : "OliviaBrtl/OliviaBrtl.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile.jpg"
   name             : "Olivia Bertelli"
   pronouns         : # example: "she/her"  
   bio              : "Development economist working on gender issues, conflict, agriculture, measurement and much more!"
@@ -52,7 +52,7 @@ author:
 
   # Social media
   artstation       : # Username
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          :  # Username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
@@ -135,7 +135,7 @@ scholar:
   locale: en
 
   source: /_bibliography/
-  bibliography: papers.bib
+  bibliography: Publications.bib
   bibliography_template: bib
   # Note: if you have latex math in your bibtex, the latex filter
   # preprocessing may conflict with MathJAX if the latter is enabled.
@@ -381,6 +381,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-redirect-from
   - jemoji
+  - jekyll-scholar
 
 # Mimic GitHub Pages with --safe
 whitelist:

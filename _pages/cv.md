@@ -11,35 +11,25 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D in Applied Economics, Paris School of Economics, 2016 
+* M.S. in Public Policies and Development, Paris School of Economics, 2012
+* M.S. in Advanced Development Economics, University of Florence, 2010
+* B.S. in Development Economics and International Cooperation, University of Florence, 2009
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* 2017- current: Maitre de conférences (associate prof.)
+  * University Paris-Dauphine, PSL, LEDa, DIAL,
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* 2016-2017: Lecturer
+  * Lancaster University (UK)
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* 2015-2016: PODER Marie-Curie Research Fellow 
+  * Institute for International Economic Studies (Stockholm)
+
+* 2010-2011: Project Coordinator
+  * Churches' Commission for Migrants in Europe (Brussels)
+
 
 Publications
 ======
@@ -59,6 +49,3 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Service and leadership
-======
-* Currently signed in to 43 different slack teams

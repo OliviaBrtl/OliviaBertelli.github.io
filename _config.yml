@@ -134,7 +134,7 @@ scholar:
   style: apa
   locale: en
 
-  source: /_bibliography/
+  source: files/Publications.bib
   bibliography: Publications.bib
   bibliography_template: bib
   # Note: if you have latex math in your bibtex, the latex filter
@@ -290,7 +290,7 @@ collections:
     output: true
     permalink: /:collection/:path/
   publications:
-    output: false
+    output: true
     permalink: /:collection/:path/
   bibliography:
     output: true
@@ -332,9 +332,9 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _bibliography
+  # _publications
   - scope:
-      path: ""
+      path: "files/Publications.bib"
       type: publications
     values:
       layout: single

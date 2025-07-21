@@ -334,7 +334,7 @@ defaults:
       comments: true
   # _publications
   - scope:
-      path: "files/Publications.bib"
+      path: "_publications/Publications.bib"
       type: publications
     values:
       layout: single

@@ -10,7 +10,10 @@ author_profile: true
 {% endif %}
 
 {% include base_path %}
-
+{% for pub in site.publications %}
+  <!-- publication display code -->
+  <h2>{{ pub.title }}</h2>
+{% endfor %}
 <!-- New style rendering if publication categories are defined -->
 {% if site.publication_category %}
   {% for category in site.publication_category  %}

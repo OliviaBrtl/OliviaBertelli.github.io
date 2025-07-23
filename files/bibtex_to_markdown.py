@@ -32,7 +32,7 @@ def main():
     with open(BIBTEX_FILE, encoding='utf-8') as bibtex_file:
         bib_database = bibtexparser.load(bibtex_file)
 
-   import re
+import re
 
 def slugify(value):
     value = value.lower()

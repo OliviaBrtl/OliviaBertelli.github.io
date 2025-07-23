@@ -4,7 +4,7 @@ print("Current working directory:", os.getcwd())
 print("Looking for:", BIBTEX_FILE)
 
 # Path to your BibTeX file and the output directory
-BIBTEX_FILE = "files/Publications.bib"
+BIBTEX_FILE = "_files/Publications.bib"
 OUTPUT_DIR = "_publications"
 
 def sanitize_filename(s):

@@ -15,10 +15,7 @@
 # TODO: Make this work with other databases of citations, 
 # TODO: Merge this with the existing TSV parsing solution
 
-{%- comment -%}
-Run from:
-C:\Users\Olivia\Dropbox\Applications\Github\OliviaBrtl.github.io\markdown_generator
-{%- endcomment -%}
+# Run from: C:\Users\Olivia\Dropbox\Applications\Github\OliviaBrtl.github.io\markdown_generator
 
 from pybtex.database.input import bibtex
 import pybtex.database.input.bibtex 

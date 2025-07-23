@@ -85,6 +85,8 @@ publication_category:
     title: 'Journal Articles'    
   conferences:
     title: 'Conference Papers'
+ WP:
+    title: 'Working Papers'    
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -295,8 +297,8 @@ collections:
   bibliography:
     output: true
     permalink: /:collection/:path/    
-  portfolio:
-    output: false
+  Registered Pre-Analysis Plans:
+    output: true
     permalink: /:collection/:path/
   talks:
     output: true

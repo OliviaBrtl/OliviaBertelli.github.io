@@ -16,7 +16,7 @@ def bib_entry_to_markdown(entry):
     yaml.append(f'year: {entry.get("year","")}')
     yaml.append(f'citation: "{entry.get("author","")}, {entry.get("title","").replace("{","").replace("}","")}, {entry.get("journal", entry.get("institution",""))}, {entry.get("year","")}"')
     if "abstract" in entry:
-        yaml.append(f'abstract: "{entry["abstract"].replace(\'"\', \'\\\"\')}"')
+        yaml.append('abstract: "{}"'.format(entry["abstract"].replace('"', '\\"')))
     if "journal" in entry:
         yaml.append(f'journal: "{entry["journal"]}"')
     if "author" in entry:

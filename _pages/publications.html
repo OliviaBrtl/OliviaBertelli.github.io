@@ -16,8 +16,13 @@ author_profile: true
   {% if pub.abstract %}
     <p><strong>Abstract:</strong> {{ pub.abstract }}</p>
   {% endif %}
-  {% if pub.citation %}
-    <p>Recommended citation: {{ pub.citation }}</p>
+  {% if pub.author or pub.year or pub.journal %}
+    <p>
+      {% if pub.author %}{{ pub.author }}.{% endif %}
+      {% if pub.year %} ({{ pub.year }}).{% endif %}
+      {% if pub.title %}{{ pub.title }}.{% endif %}
+      {% if pub.journal %}<i>{{ pub.journal }}</i>.{% endif %}
+    </p>
   {% endif %}
 {% endfor %}
 <!-- New style rendering if publication categories are defined -->

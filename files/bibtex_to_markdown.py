@@ -3,7 +3,7 @@ import re
 import bibtexparser
 
 # Path to your BibTeX file and the output directory
-BIBTEX_FILE = "Publications.bib"
+BIBTEX_FILE = "files\Publications.bib"
 OUTPUT_DIR = "_publications"
 
 def sanitize_filename(s):

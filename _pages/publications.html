@@ -6,45 +6,49 @@ author_profile: true
 ---
 
 {% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
+  <div class="wordwrap">
+    You can also find my articles on <a href="{{ site.author.googlescholar }}">my Google Scholar profile</a>.
+  </div>
 {% endif %}
 
 {% include base_path %}
+
 {% assign sorted_pubs = site.publications | sort: "year" | reverse %}
-{% for pub in sorted_pubs %}
-  <h2>{{ pub.title }}</h2>
-  {% if pub.abstract %}
-    <p><strong>Abstract:</strong> {{ pub.abstract }}</p>
-  {% endif %}
-  {% if pub.author or pub.year or pub.journal %}
-    <p>
-      {% if pub.author %}{{ pub.author }}.{% endif %}
-      {% if pub.year %} ({{ pub.year }}).{% endif %}
-      {% if pub.title %}{{ pub.title }}.{% endif %}
-      {% if pub.journal %}<i>{{ pub.journal }}</i>.{% endif %}
-    </p>
-  {% endif %}
-{% endfor %}
-<!-- New style rendering if publication categories are defined -->
+
 {% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
+  {% for category in site.publication_category %}
+    {% assign category_title = category[1].title %}
+    {% assign cat_name = category[0] %}
+    {% assign category_pubs = site.publications | where: "category", cat_name | sort: "year" | reverse %}
+
+    {% if category_pubs.size > 0 %}
+      <h2>{{ category_title }}</h2>
+      <hr />
+      {% for pub in category_pubs %}
+        {% include archive-single.html %}
+      {% endfor %}
+    {% endif %}
   {% endfor %}
 {% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
+  {% for pub in sorted_pubs %}
+    <div class="publication-entry">
+      <h2>
+        {% if pub.url %}
+          <a href="{{ pub.url }}">{{ pub.title }}</a>
+        {% else %}
+          {{ pub.title }}
+        {% endif %}
+      </h2>
+
+      {% if pub.abstract %}
+        <p><strong>Abstract:</strong> {{ pub.abstract }}</p>
+      {% endif %}
+
+      <p>
+        {% if pub.author %}{{ pub.author }}.{% endif %}
+        {% if pub.year %} ({{ pub.year }}).{% endif %}
+        {% if pub.journal %} <i>{{ pub.journal }}</i>.{% endif %}
+      </p>
+    </div>
   {% endfor %}
 {% endif %}
-
-
-

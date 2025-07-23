@@ -1,7 +1,8 @@
 import os
 import bibtexparser
+cd C:\Users\Olivia\Dropbox\Applications\Github\OliviaBrtl.github.io\
 print("Current working directory:", os.getcwd())
-print("Looking for:", Publications.bib)
+print("Looking for:", "_files/Publications.bib")
 
 # Path to your BibTeX file and the output directory
 BIBTEX_FILE = "_files/Publications.bib"

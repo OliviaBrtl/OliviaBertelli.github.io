@@ -1,7 +1,5 @@
 import os
 import bibtexparser
-print("Current working directory:", os.getcwd())
-print("Looking for:", Publications.bib)
 
 # Path to your BibTeX file and the output directory
 BIBTEX_FILE = "Publications.bib"

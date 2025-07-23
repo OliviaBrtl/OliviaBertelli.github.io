@@ -1,10 +1,8 @@
 ---
 title: "Measurement and observation of gender-based violence and conflict-related violence in developing countries"
-collection: publications
-permalink: /publication/2020-01-01-Measurement-and-observation-of-gender-based-violence-and-conflict-related-violence-in-developing-countries
-date: 2020-01-01
-venue: 'Dialogue'
-paperurl: 'https://hal.science/hal-03105596/document'
-citation: ' Olivia Bertelli,  Thomas Calvo,  Emmanuelle Lavallée,  Sandrine Mesplé-Somps,  Marion Mercier, &quot;Measurement and observation of gender-based violence and conflict-related violence in developing countries.&quot; Dialogue, 2020.'
+year: 2020
+citation: "Bertelli, Olivia and Calvo, Thomas and Lavallée, Emmanuelle and Mesplé-Somps, Sandrine and Mercier, Marion, Measurement and observation of gender-based violence and conflict-related violence in developing countries, Dialogue, 2020"
+journal: "Dialogue"
+author: "Bertelli, Olivia and Calvo, Thomas and Lavallée, Emmanuelle and Mesplé-Somps, Sandrine and Mercier, Marion"
+url: "https://hal.science/hal-03105596/document"
 ---
-[Access paper here](https://hal.science/hal-03105596/document){:target="_blank"}

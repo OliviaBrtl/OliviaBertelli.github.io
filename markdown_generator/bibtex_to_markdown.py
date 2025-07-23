@@ -1,6 +1,5 @@
 import os
 import bibtexparser
-cd C:\Users\Olivia\Dropbox\Applications\Github\OliviaBrtl.github.io>
 print("Current working directory:", os.getcwd())
 print("Looking for:", Publications.bib)
 

@@ -10,7 +10,8 @@ author_profile: true
 {% endif %}
 
 {% include base_path %}
-{% for pub in site.publications %}
+{% assign sorted_pubs = site.publications | sort: "year" | reverse %}
+{% for pub in sorted_pubs %}
   <h2>{{ pub.title }}</h2>
   {% if pub.abstract %}
     <p><strong>Abstract:</strong> {{ pub.abstract }}</p>
